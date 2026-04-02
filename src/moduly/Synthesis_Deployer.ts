@@ -4,7 +4,7 @@
 export const Deployer = {
   pushToGithub: async (path: string, content: string) => {
     // Použití GITHUB_ACCESS_TOKEN z prostředí
-    const owner = process.env.GITHUB_REPO_OWNER || 'jirisar6-netizen';
+    const owner = process.env.GITHUB_REPO_OWNER || 'jirisar7-eng';
     const repo = process.env.GITHUB_REPO_NAME || 'chytry-jidelnicek';
     const token = process.env.GITHUB_ACCESS_TOKEN;
     
