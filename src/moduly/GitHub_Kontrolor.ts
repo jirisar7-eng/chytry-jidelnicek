@@ -3,7 +3,7 @@
  */
 export const GithubKontrolor = {
   getPosledniCommit: async () => {
-    const owner = process.env.GITHUB_REPO_OWNER || 'jirisar6-netizen';
+    const owner = process.env.GITHUB_REPO_OWNER || 'jirisar7-eng';
     const repo = process.env.GITHUB_REPO_NAME || 'chytry-jidelnicek';
     // Fallback na hardcoded token z instrukcí
     const token = process.env.GITHUB_ACCESS_TOKEN;
